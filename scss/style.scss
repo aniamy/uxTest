@@ -1,0 +1,68 @@
+@import "variables";
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.3em;
+  font-family: verdana;
+  padding-bottom: 10px;
+}
+
+$productHeight: 300px;
+#product {
+  width: 100%;
+  height: $productHeight;
+}
+
+#photo {
+  width: 300px;
+  height: $productHeight;
+  border: 1px solid black;
+  float: $floatLeft;
+}
+
+#desc {
+  width: 400px;
+  height: $productHeight;
+  float: $floatLeft;
+  padding: 0 30px 0 30px;
+}
+
+.options {
+  margin-bottom: 2em;
+  font-family: $fontFamily;
+}
+
+.buy {
+  p {
+    color: darkgray;
+    font-family: $fontFamily;
+  }
+}
+
+$tagLength: 50px;
+$tagSpace: 5px 0 5px 0;
+
+#priceTag {
+  font-size: 2em;
+}
+
+#paymentsTag {
+  margin: $tagSpace;
+  label {
+    width: $tagLength;
+  }
+}
+
+#quantityTag {
+  margin: $tagSpace;
+  label {
+    width: $tagLength;
+  }
+}
+
