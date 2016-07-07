@@ -48,6 +48,14 @@
   #quantityTag label {
     width: 50px; }
 
+#payment-dropdown {
+  display: inline-block; }
+
+#quantity-dropdown {
+  display: inline-block; }
+
 .ch-carousel-content li {
   width: 100px;
-  height: 100px; }
+  height: 100px;
+  border: 1px solid black;
+  margin: 0 3px; }

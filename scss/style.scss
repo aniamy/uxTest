@@ -49,6 +49,7 @@ $productHeight: 350px;
 
 $tagLength: 50px;
 $tagSpace: 5px 0 5px 0;
+$displayTag: inline-block;
 
 #priceTag {
   font-size: 2em;
@@ -68,7 +69,17 @@ $tagSpace: 5px 0 5px 0;
   }
 }
 
+#payment-dropdown {
+  display: $displayTag;
+}
+
+#quantity-dropdown {
+  display: $displayTag;
+}
+
 .ch-carousel-content li {
     width: 100px;
     height: 100px;
+	border: 1px solid black;
+	margin: 0 3px;
 }
