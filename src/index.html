@@ -9,7 +9,6 @@
 <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="../dist/chico.min.css"/>
     <link rel="stylesheet" href="vendor.min.css"/>
 </head>
 <body>
@@ -27,10 +26,12 @@
             <article class="options">
                 <div id="quantityTag">
                     <label>Quantity</label>
-                    <p class="quantity-dropdown">1</p>
-                        <menu label="Links" class="ch-hide">
-                        <li><a href="http://www.mercadolibre.com">MercadoLibre</a></li>
-                    </menu>
+                    <div id="quantity-dropdown" class="ch-dropdown-skin">
+						<p class="ch-dropdown-trigger ch-dropdown-ico">1</p>
+						<ul label="Links" class="ch-hide ch-dropdown-content" aria-hidden="true" role="menu">
+							<li><a href="http://www.mercadolibre.com">MercadoLibre</a></li>
+						</ul>
+					</div>
                 </div>
                 <div id="paymentsTag">
                     <label class="">Payments</label>
@@ -43,59 +44,18 @@
 
             <article>
                 <h2>More products like this</h2>
-                <div class="myCarousel ch-carousel">
-                    <div class="ch-carousel-prev ch-user-no-select" role="button" aria-hidden="true"
-                         aria-disabled="false"></div>
-                    <div class="ch-carousel-mask" role="tabpanel" style="height: 100px;">
-                        <ul class="ch-carousel-list" style="width: 300px; transform: translateX(-2676px);">
-                            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="19" aria-posinset="1"
-                                aria-label="page1" style="width: 210px; height: 210px; margin-right: 13px;">A
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="19" aria-posinset="2"
-                                aria-label="page1" style="width: 210px; height: 210px; margin-right: 13px;">B
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="19" aria-posinset="3"
-                                aria-label="page1" style="width: 210px; height: 210px; margin-right: 13px;">C
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="false" aria-setsize="19" aria-posinset="4"
-                                aria-label="page1" style="width: 210px; height: 210px; margin-right: 13px;">D
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="5"
-                                aria-label="page2" style="width: 210px; height: 210px; margin-right: 13px;">E
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="6"
-                                aria-label="page2" style="width: 210px; height: 210px; margin-right: 13px;">F
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="7"
-                                aria-label="page2" style="width: 210px; height: 210px; margin-right: 13px;">G
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="8"
-                                aria-label="page2" style="width: 210px; height: 210px; margin-right: 13px;">H
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="9"
-                                aria-label="page3" style="width: 210px; height: 210px; margin-right: 13px;">I
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="10"
-                                aria-label="page3" style="width: 210px; height: 210px; margin-right: 13px;">J
-                            </li>
-                            <li class="ch-carousel-item" aria-hidden="true" aria-setsize="19" aria-posinset="11"
-                                aria-label="page3" style="width: 210px; height: 210px; margin-right: 13px;">K
-                            </li>
-
-                        </ul>
-                    </div>
-                    <div class="ch-carousel-next ch-user-no-select" role="button" aria-hidden="false"
-                         aria-disabled="false"></div>
-                    <div class="ch-carousel-pages ch-user-no-select" role="navigation"><span role="button"
-                                                                                             aria-selected="false"
-                                                                                             aria-controls="page1"
-                                                                                             data-page="1"
-                                                                                             class="">1</span><span
-                            role="button" aria-selected="false" aria-controls="page2" data-page="2"
-                            class="">2</span><span role="button" aria-selected="false" aria-controls="page3"
-                                                   data-page="3" class="">3</span>
-                    </div>
-                </div>
+                <div id="other-photos" class="ch-carousel">
+					<ul>
+						<li><img src="http://chico-ui.com.ar/src/assets/ninja.png" width="120"></li>
+						<li><img src="http://chico-ui.com.ar/src/assets/ninja.png" width="120"></li>
+						<li><img src="http://chico-ui.com.ar/src/assets/ninja.png" width="120"></li>
+						<li><img src="http://chico-ui.com.ar/src/assets/ninja.png" width="120"></li>
+						<li><img src="http://chico-ui.com.ar/src/assets/ninja.png" width="120"></li>
+						<li><img src="http://chico-ui.com.ar/src/assets/ninja.png" width="120"></li>
+						<li><img src="http://chico-ui.com.ar/src/assets/ninja.png" width="120"></li>
+						<li><img src="http://chico-ui.com.ar/src/assets/ninja.png" width="120"></li>
+					</ul>
+				</div>
             </article>
         </div>
     </div>

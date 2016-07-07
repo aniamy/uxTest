@@ -8,6 +8,13 @@
     var quantityDropdown = new ch.Dropdown(document.querySelector('.quantity-dropdown'), { 'skin': true });
 });*/
 
-document.addEventListener('DOMContentLoaded', function(e) {
-    var quantityDropdown = new ch.Dropdown(document.querySelector('.quantity-dropdown'), { 'skin': true });
-});
+/*document.addEventListener('DOMContentLoaded', function(e) {
+	var options = [1,2,3,4,5,6,7,8,9,10];
+	var dropdown = new ch.Dropdown($document.querySelector('.quantity-dropdown'), options);
+    //var quantityDropdown = new ch.Dropdown(document.querySelector('.quantity-dropdown'), { 'skin': true });
+	
+	
+});*/
+
+var quantityDropdown = $("#quantity-dropdown").dropdown();
+var otherPhotos = $("#other-photos").carousel();
